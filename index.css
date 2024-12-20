@@ -1,0 +1,58 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(241, 230, 217);
+  line-height: 25px;
+}
+.container{
+  width: 50vw;
+  background-color: white;
+  display: grid-inline;
+  grid-template-columns: auto;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 2%;
+
+}
+img{
+  max-width: 100%;
+}
+.pt{
+  background-color: rgb(253, 225, 229);
+  padding: 3px;
+  border-radius: 2%;
+}
+
+h1{
+  color: rgb(54, 40, 40);
+
+}
+h2{
+  color: brown;
+ 
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td{
+ padding: 10px;
+ text-align: left;
+ border-bottom: 1px solid rgb(225, 215, 215);
+}
+
+hr{
+  color: rgb(225, 215, 215);
+}
+
+@media (max-width : 600px) {
+
+ .container{
+  width: 100%;
+ }
+}
